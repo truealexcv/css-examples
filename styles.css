@@ -42,7 +42,7 @@ nav {
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 1rem;
     list-style: none;
 }
@@ -55,6 +55,8 @@ nav a {
     text-decoration: none;
     color: #4a90e2;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
 }
 
 nav a:hover {

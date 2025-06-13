@@ -37,15 +37,15 @@ h1 {
 }
 
 .calculadora .value {
-   grid-column: span 4; 
-   height: 100px;
-   text-align: right;
-   border: none;
-   outline: none;
-   padding: 10px;
-   font-size: 18px;
-   background: #0d4d6b;
-   color: white;
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    background: #0d4d6b;
+    color: white;
 }
 
 .calculadora span {
@@ -55,7 +55,7 @@ h1 {
     color: white;
     background: #0c2835;
     place-items: center;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     margin: 2px;
 }
 
@@ -77,5 +77,5 @@ h1 {
 
 .calculadora span.resultado {
     background: #03b1ff;
-    
+
 }

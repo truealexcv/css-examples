@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paralaje Efecto 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="paralaje-2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <div id="bg"></div>
+      <h2>2.5D Paralaje Efecto</h2>
+      <img src="img/img.png" class="girl" />
+    </section>
+    <script>
+      var position = document.documentElement;
+      position.addEventListener("mousemove", (e) => {
+        position.style.setProperty("--x", e.clientX + "px");
+      });
+    </script>
+  </body>
+</html>
